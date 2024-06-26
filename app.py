@@ -14,7 +14,7 @@ def user_input_features():
         sex = st.selectbox('Sex', ['Male', 'Female', 'Non-binary'])
         relationship_status = st.selectbox('Relationship Status', ['Single', 'In a relationship', 'Married', 'Divorced'])
         occupation = st.selectbox('Occupation', ['University Student', 'School Student', 'Salaried Worker', 'Retired'])
-        time_spent = st.slider('Time Spent on Social Media (hours)', 0.0, 24.0, 2.0)
+        time_spent = st.slider('Time Spent on Social Media (hours)', 0.0, 5.0, 2.0)
         st.write('For the Follwing questions , Rate it on a scale of 1 to 5 based on its impact.')
 
         q1 = st.slider('How often do you find yourself using Social media without a specific purpose?', 1, 5, 3)
