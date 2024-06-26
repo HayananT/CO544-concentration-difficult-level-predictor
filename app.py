@@ -89,9 +89,9 @@ def user_input_features():
     return features
 
 def main():
-    st.title('DISRACTION ALERT')
+    st.title('Concentration Difficulty Prediction due to Social Media')
     st.write('Predicting Concentration Levels in the Social Media Age')
-    st.write('In today\'s digital age, social media can often derail our focus and productivity. FocusMeter helps you gauge and maintain your concentration amidst these distractions. By inputting various factors like age, occupation, and social media usage patterns, the app predicts your concentration level. It alerts you to potential distractions, empowering you to stay focused and improve productivity. Take control of your focus with FocusMeter and achieve your goals more effectively in the digital era.')
+    st.write('In today\'s digital age, maintaining concentration can be challenging, especially with the pervasive influence of social media. The Concentration Difficulty Prediction Model assesses factors like age, occupation, and patterns of social media usage to predict concentration levels. By analyzing these inputs, the model forecasts potential concentration difficulties and highlights the impact of social media on focus and productivity. This empowers users to take proactive steps to improve concentration and achieve goals more effectively in the digital era.')
 
     input_df = user_input_features()
 
